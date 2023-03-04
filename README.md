@@ -28,7 +28,7 @@ We use the K-means clustering algorithm to group the patients based on their myo
 ## Visualization with t-SNE
 We use t-distributed stochastic neighbor embedding (t-SNE) to reduce the dimensionality of the PCA-transformed data to two dimensions, which allows us to visualize the clusters. We plot the results using a scatter plot and color each point according to its assigned cluster.
 
-##Conclusion and Recommendations
+## Conclusion and Recommendations
 Based on our unsupervised learning analysis, we recommend using K-means clustering with 3 clusters to group the patients based on their myopia risk factors. This approach could potentially lead to better predictions of myopia by identifying distinct subgroups of patients with similar risk factors. Additionally, clustering the patients separately may be more effective than training on the whole dataset, as our team previously attempted and failed to do.
 
 Overall, this project demonstrates the use of unsupervised learning techniques to gain insights into complex medical data and improve classification models.
